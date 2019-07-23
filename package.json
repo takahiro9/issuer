@@ -23,7 +23,8 @@
       "output": "build"
     },
     "files": [
-      "dist/electron/**/*"
+      "dist/electron/**/*",
+      "icons/**/*"
     ],
     "dmg": {
       "contents": [
@@ -41,7 +42,7 @@
       ]
     },
     "mac": {
-      "icon": "build/icons/icon.icns"
+      "icon": "icons/mac/app.icns"
     },
     "win": {
       "icon": "build/icons/icon.ico"
